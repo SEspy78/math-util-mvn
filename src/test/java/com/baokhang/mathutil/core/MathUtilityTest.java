@@ -17,9 +17,15 @@ public class MathUtilityTest {
     public void verifyFactorialGivenRightArgument0ReturnOk(){
         assertEquals(1, MathUtility.getFactorial(0));
     }
-    
+    @Test
+    public void verifyFactorialGivenRightArgument1ReturnOk(){
+        assertEquals(1, MathUtility.getFactorial(0));
+    }
      @Test
     public void verifyFactorialGivenRightArgument5ReturnOk(){
         assertEquals(120, MathUtility.getFactorial(5));
     }
+    
+    
+    
 }
